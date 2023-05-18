@@ -1,0 +1,60 @@
+/* ClientForm.css */
+body {
+  background-color: #ca5511; /* Cambia el color de fondo a tu preferencia */
+}
+.container {
+  margin-top: 50px;
+}
+.container {
+  background-color: #e96e27; /* Cambia el color de fondo a tu preferencia */
+  border-radius: 10px; /* Agrega bordes curvos al div */
+  padding: 20px; /* Agrega un espacio de 20px alrededor del contenido del div */
+  margin-top: 20px; /* Agrega un espacio de 20px en la parte superior del div */
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type='submit'] {
+  margin-top: 20px;
+}
+
+.table-dark {
+  color: #fff;
+  background-color: #343a40;
+}
+
+.table-dark th,
+.table-dark td,
+.table-dark thead th {
+  border-color: #454d55;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 768px) {
+  .col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .col-md-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+}
